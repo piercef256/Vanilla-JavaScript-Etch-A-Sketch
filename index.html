@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="style.css" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Etch-A-Sketch</title>
+    </head>
 
-<head>
-    <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etch-A-Sketch</title>
-</head>
+    <body>
+        <div class="contanier">
+            <div class="controls">
+                <h1>Etch-A-Sketch</h1>
+                <div class="slider-container">
+                    <p id="grid-size-display">10 x 10</p>
+                    <input
+                        type="range"
+                        min="1"
+                        max="100"
+                        value="10"
+                        class="slider"
+                        id="slider"
+                    />
+                </div>
+                <button class="button" id="reset-button">Reset</button>
+            </div>
 
-<body>
-    <div class="container">
-        <p>hi</p>
-    </div>
-
-</body>
-
+            <div class="grid-container">
+                <div class="grid"></div>
+            </div>
+        </div>
+    </body>
 </html>
