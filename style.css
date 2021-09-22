@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row {
+    display: flex;
+}
+
+.node {
+    background:white;
+    border: black 1px solid;
+}
