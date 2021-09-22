@@ -1,0 +1,52 @@
+.slider-container {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    border: grey 3px solid;
+    width: 500px;
+    height: 500px;
+}
+.row {
+    display: flex;
+}
+
+.light {
+    background: white;
+}
+
+.dark {
+    background: black !important;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
